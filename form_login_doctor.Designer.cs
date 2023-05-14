@@ -121,11 +121,11 @@
             // 
             this.label_code_doctor_login.AutoSize = true;
             this.label_code_doctor_login.BackColor = System.Drawing.Color.Transparent;
-            this.label_code_doctor_login.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_code_doctor_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_code_doctor_login.ForeColor = System.Drawing.SystemColors.Window;
             this.label_code_doctor_login.Location = new System.Drawing.Point(416, 240);
             this.label_code_doctor_login.Name = "label_code_doctor_login";
-            this.label_code_doctor_login.Size = new System.Drawing.Size(226, 27);
+            this.label_code_doctor_login.Size = new System.Drawing.Size(215, 29);
             this.label_code_doctor_login.TabIndex = 7;
             this.label_code_doctor_login.Text = "Enter unique code:";
             // 
@@ -133,11 +133,11 @@
             // 
             this.label_password_doctor_login.AutoSize = true;
             this.label_password_doctor_login.BackColor = System.Drawing.Color.Transparent;
-            this.label_password_doctor_login.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_password_doctor_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_password_doctor_login.ForeColor = System.Drawing.SystemColors.Window;
             this.label_password_doctor_login.Location = new System.Drawing.Point(456, 334);
             this.label_password_doctor_login.Name = "label_password_doctor_login";
-            this.label_password_doctor_login.Size = new System.Drawing.Size(186, 27);
+            this.label_password_doctor_login.Size = new System.Drawing.Size(189, 29);
             this.label_password_doctor_login.TabIndex = 8;
             this.label_password_doctor_login.Text = "Enter Password:";
             // 
@@ -145,11 +145,11 @@
             // 
             this.label_login_doctor.AutoSize = true;
             this.label_login_doctor.BackColor = System.Drawing.Color.Transparent;
-            this.label_login_doctor.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_login_doctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_login_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_login_doctor.Location = new System.Drawing.Point(765, 432);
             this.label_login_doctor.Name = "label_login_doctor";
-            this.label_login_doctor.Size = new System.Drawing.Size(73, 27);
+            this.label_login_doctor.Size = new System.Drawing.Size(73, 29);
             this.label_login_doctor.TabIndex = 9;
             this.label_login_doctor.Text = "LogIn";
             this.label_login_doctor.Click += new System.EventHandler(this.label_login_doctor_Click);
@@ -174,7 +174,7 @@
             this.MaximizeBox = false;
             this.Name = "form_login_doctor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "form_login_doctor";
+            this.Text = "PillBuddy";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.back_button_doctor_login)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_doctor_login)).EndInit();

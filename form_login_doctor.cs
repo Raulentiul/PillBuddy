@@ -23,7 +23,7 @@ namespace MedstuffPrincipal
         {
             string code = text_box_code_doctor.Text;
             string password = text_box_password_doctor.Text;
-            if(code=="1" && password=="1")
+            if(code=="Xj91S08!" && password=="1")
             {
                 form_profile_doctor form_profile_doctor = new form_profile_doctor();
                 form_profile_doctor.Show();
@@ -68,7 +68,7 @@ namespace MedstuffPrincipal
         {
             string code = text_box_code_doctor.Text;
             string password = text_box_password_doctor.Text;
-            if (code == "1" && password == "1")
+            if (code == "Xj91S08!" && password == "1")
             {
                 form_profile_doctor form_profile_doctor = new form_profile_doctor();
                 form_profile_doctor.Show();

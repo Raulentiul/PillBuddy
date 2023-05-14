@@ -69,5 +69,9 @@ namespace MedstuffPrincipal
             this.Close();
         }
 
+        private void listPatient1_Load(object sender, EventArgs e)
+        {
+            send_messagecs.send_sms();
+        }
     }
 }

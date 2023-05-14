@@ -121,7 +121,7 @@
   <data name="back_button_patient_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABX9JREFUeF7tnFuIHEUUhtuYuSUb7xe8IF7AFxVEfVAfvIGCIgQEHxQVRfRB0AiC
+        DwAACw8BkvkDpQAABX9JREFUeF7tnFuIHEUUhtuYuSUb7xe8IF7AFxVEfVAfvIGCIgQEHxQVRfRB0AiC
         b+o++KCCgRjQgIgXgmJIDKKbl4BjMjWz0R2DaDSgAQOCiaAJRoUNbHL8T3tcOz1nk5nerr5Mnw9+Zna2
         u+uvv2uqq2tqJjAMwzAMwzAMwzAMwzCMcaHhaE1AdJL8aWRNo0tUd/Ru0Kal8pKRJXwCRB8HPWrJy0ZW
         RE4A1bvUDnbQKfIvIwuiJ0DUn9hOZ8u/Dd8oJ4BwYd7d7NBFsonhE/UEQOiOfqn16CrZzPCFFv68HP3e
@@ -151,7 +151,7 @@
   <data name="picture_patient_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAggAAAIFCAYAAAC3YgW9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAdbZJREFUeF7tnQd4VUX6xg8ljSoIIoqKiK6y6qrsWtaWra6r6+5fCL2EIopCCil0
+        DQAACw0B7QfALAAAdbZJREFUeF7tnQd4VUX6xg8ljSoIIoqKiK6y6qrsWtaWra6r6+5fCL2EIopCCil0
         Qk1ABKlSBUEIvTcrCPbedS1rp9iAhCICMv/vnZxzvYQJpNxz7j3J+3ue33MjICT3njPznplvZixCiH9I
         SMiK7til/zUdEzMSW3Xs079F++T7W3VI3SS+k9AhZUer9in7W7ZNOnpnm94q1LZom6RadUhRbTunqY5d
         M1WXHgPUXfcO+fne5OE7ktOyX0pJz1mbkpYzNzkje1hKRk5iStqI+KS+o8/NysqqbH/7hBBCCAkFCQkJ

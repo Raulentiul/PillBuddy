@@ -22,7 +22,7 @@ namespace MedstuffPrincipal
         {
             string email = text_box_email_patient.Text;
             string password = text_box_password_patient.Text;
-            if(email=="a" && password=="a")
+            if(email=="vlad@gmail.com" && password=="a")
             {
                 form_profile_patient form_profile_patient = new form_profile_patient();
                 form_profile_patient.Show();
@@ -32,7 +32,7 @@ namespace MedstuffPrincipal
             {
                 this.Close();
             }
-            else if(email != "a" || password != "a")
+            else if(email != "vlad@gmail.com" || password != "123")
             {
                 MessageBox.Show("Invalid Email/Password");
             }
@@ -82,7 +82,7 @@ namespace MedstuffPrincipal
         {
             string email = text_box_email_patient.Text;
             string password = text_box_password_patient.Text;
-            if (email == "a" && password == "a")
+            if (email == "vlad@gmail.com" && password == "a")
             {
                 form_profile_patient form_profile_patient = new form_profile_patient();
                 form_profile_patient.Show();

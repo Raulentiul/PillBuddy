@@ -36,6 +36,7 @@
             this.lblTrat = new System.Windows.Forms.Label();
             this.txtAfec = new System.Windows.Forms.Label();
             this.txtTrat = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
@@ -108,10 +109,21 @@
             this.txtTrat.TabIndex = 7;
             this.txtTrat.Text = "Treatment information";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(667, 63);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 48);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Send Reminder on\r\nPhone\r\n\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // ListPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTrat);
             this.Controls.Add(this.txtAfec);
             this.Controls.Add(this.lblTrat);
@@ -121,7 +133,7 @@
             this.Controls.Add(this.codePacient);
             this.Controls.Add(this.lblName);
             this.Name = "ListPatient";
-            this.Size = new System.Drawing.Size(776, 150);
+            this.Size = new System.Drawing.Size(799, 150);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,5 +149,6 @@
         private System.Windows.Forms.Label lblTrat;
         private System.Windows.Forms.Label txtAfec;
         private System.Windows.Forms.Label txtTrat;
+        private System.Windows.Forms.Label label1;
     }
 }

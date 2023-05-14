@@ -110,11 +110,11 @@
             // 
             this.label_email_patient_login.AutoSize = true;
             this.label_email_patient_login.BackColor = System.Drawing.Color.Transparent;
-            this.label_email_patient_login.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_email_patient_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_email_patient_login.ForeColor = System.Drawing.SystemColors.Window;
             this.label_email_patient_login.Location = new System.Drawing.Point(370, 225);
             this.label_email_patient_login.Name = "label_email_patient_login";
-            this.label_email_patient_login.Size = new System.Drawing.Size(145, 27);
+            this.label_email_patient_login.Size = new System.Drawing.Size(141, 29);
             this.label_email_patient_login.TabIndex = 8;
             this.label_email_patient_login.Text = "Enter email:";
             // 
@@ -122,11 +122,11 @@
             // 
             this.label_password_patient_login.AutoSize = true;
             this.label_password_patient_login.BackColor = System.Drawing.Color.Transparent;
-            this.label_password_patient_login.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_password_patient_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_password_patient_login.ForeColor = System.Drawing.SystemColors.Window;
             this.label_password_patient_login.Location = new System.Drawing.Point(327, 304);
             this.label_password_patient_login.Name = "label_password_patient_login";
-            this.label_password_patient_login.Size = new System.Drawing.Size(188, 27);
+            this.label_password_patient_login.Size = new System.Drawing.Size(187, 29);
             this.label_password_patient_login.TabIndex = 9;
             this.label_password_patient_login.Text = "Enter password:";
             // 
@@ -134,11 +134,11 @@
             // 
             this.label_login_patient.AutoSize = true;
             this.label_login_patient.BackColor = System.Drawing.Color.Transparent;
-            this.label_login_patient.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_login_patient.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_login_patient.ForeColor = System.Drawing.SystemColors.Window;
             this.label_login_patient.Location = new System.Drawing.Point(629, 378);
             this.label_login_patient.Name = "label_login_patient";
-            this.label_login_patient.Size = new System.Drawing.Size(73, 27);
+            this.label_login_patient.Size = new System.Drawing.Size(73, 29);
             this.label_login_patient.TabIndex = 10;
             this.label_login_patient.Text = "LogIn";
             this.label_login_patient.Click += new System.EventHandler(this.label_login_patient_Click);
@@ -147,11 +147,11 @@
             // 
             this.label_create_account.AutoSize = true;
             this.label_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_create_account.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_create_account.Location = new System.Drawing.Point(532, 441);
             this.label_create_account.Name = "label_create_account";
-            this.label_create_account.Size = new System.Drawing.Size(281, 20);
+            this.label_create_account.Size = new System.Drawing.Size(243, 18);
             this.label_create_account.TabIndex = 11;
             this.label_create_account.Text = "Don\'t have an account? Create One";
             this.label_create_account.Click += new System.EventHandler(this.label_create_account_Click);
@@ -176,7 +176,7 @@
             this.MaximizeBox = false;
             this.Name = "form_login_patient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "form_login_patient";
+            this.Text = "PillBuddy";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.back_button_patient_login)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_patient_login)).EndInit();

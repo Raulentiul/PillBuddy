@@ -73,11 +73,11 @@
             // 
             this.label_create_account_create_account.AutoSize = true;
             this.label_create_account_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_create_account_create_account.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_create_account_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_create_account_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_create_account_create_account.Location = new System.Drawing.Point(484, 556);
             this.label_create_account_create_account.Name = "label_create_account_create_account";
-            this.label_create_account_create_account.Size = new System.Drawing.Size(286, 40);
+            this.label_create_account_create_account.Size = new System.Drawing.Size(243, 38);
             this.label_create_account_create_account.TabIndex = 2;
             this.label_create_account_create_account.Text = "Create Account";
             this.label_create_account_create_account.Click += new System.EventHandler(this.label_create_account_create_account_Click);
@@ -123,11 +123,11 @@
             // 
             this.label_name_create_account.AutoSize = true;
             this.label_name_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_name_create_account.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_name_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_name_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_name_create_account.Location = new System.Drawing.Point(393, 282);
             this.label_name_create_account.Name = "label_name_create_account";
-            this.label_name_create_account.Size = new System.Drawing.Size(85, 23);
+            this.label_name_create_account.Size = new System.Drawing.Size(78, 25);
             this.label_name_create_account.TabIndex = 8;
             this.label_name_create_account.Text = "Name*:";
             // 
@@ -135,11 +135,11 @@
             // 
             this.label_email_create_account.AutoSize = true;
             this.label_email_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_email_create_account.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_email_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_email_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_email_create_account.Location = new System.Drawing.Point(402, 332);
             this.label_email_create_account.Name = "label_email_create_account";
-            this.label_email_create_account.Size = new System.Drawing.Size(76, 23);
+            this.label_email_create_account.Size = new System.Drawing.Size(74, 25);
             this.label_email_create_account.TabIndex = 9;
             this.label_email_create_account.Text = "Email*:";
             // 
@@ -147,11 +147,11 @@
             // 
             this.label_phone_number_create_account.AutoSize = true;
             this.label_phone_number_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_phone_number_create_account.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_phone_number_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_phone_number_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_phone_number_create_account.Location = new System.Drawing.Point(307, 379);
             this.label_phone_number_create_account.Name = "label_phone_number_create_account";
-            this.label_phone_number_create_account.Size = new System.Drawing.Size(171, 23);
+            this.label_phone_number_create_account.Size = new System.Drawing.Size(157, 25);
             this.label_phone_number_create_account.TabIndex = 10;
             this.label_phone_number_create_account.Text = "Phone Number*:";
             // 
@@ -159,11 +159,11 @@
             // 
             this.label_password_create_account.AutoSize = true;
             this.label_password_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_password_create_account.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_password_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_password_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_password_create_account.Location = new System.Drawing.Point(361, 430);
             this.label_password_create_account.Name = "label_password_create_account";
-            this.label_password_create_account.Size = new System.Drawing.Size(117, 23);
+            this.label_password_create_account.Size = new System.Drawing.Size(112, 25);
             this.label_password_create_account.TabIndex = 11;
             this.label_password_create_account.Text = "Password*:";
             // 
@@ -171,11 +171,11 @@
             // 
             this.label_verify_password_create_account.AutoSize = true;
             this.label_verify_password_create_account.BackColor = System.Drawing.Color.Transparent;
-            this.label_verify_password_create_account.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_verify_password_create_account.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_verify_password_create_account.ForeColor = System.Drawing.SystemColors.Window;
             this.label_verify_password_create_account.Location = new System.Drawing.Point(301, 480);
             this.label_verify_password_create_account.Name = "label_verify_password_create_account";
-            this.label_verify_password_create_account.Size = new System.Drawing.Size(177, 23);
+            this.label_verify_password_create_account.Size = new System.Drawing.Size(167, 25);
             this.label_verify_password_create_account.TabIndex = 12;
             this.label_verify_password_create_account.Text = "Verify Password*:";
             // 
@@ -202,7 +202,7 @@
             this.MaximizeBox = false;
             this.Name = "form_create_account";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "form_create_account";
+            this.Text = "PillBuddy";
             ((System.ComponentModel.ISupportInitialize)(this.back_button_create_account)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_box_pacient_create_account)).EndInit();
             this.ResumeLayout(false);

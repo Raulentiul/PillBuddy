@@ -68,11 +68,11 @@
             // 
             this.label_change_password_doctor.AutoSize = true;
             this.label_change_password_doctor.BackColor = System.Drawing.Color.Transparent;
-            this.label_change_password_doctor.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_change_password_doctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_change_password_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_change_password_doctor.Location = new System.Drawing.Point(515, 404);
             this.label_change_password_doctor.Name = "label_change_password_doctor";
-            this.label_change_password_doctor.Size = new System.Drawing.Size(217, 27);
+            this.label_change_password_doctor.Size = new System.Drawing.Size(210, 29);
             this.label_change_password_doctor.TabIndex = 2;
             this.label_change_password_doctor.Text = "Change Password";
             this.label_change_password_doctor.Click += new System.EventHandler(this.label_change_password_doctor_Click);
@@ -81,11 +81,11 @@
             // 
             this.label_change_email_doctor.AutoSize = true;
             this.label_change_email_doctor.BackColor = System.Drawing.Color.Transparent;
-            this.label_change_email_doctor.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_change_email_doctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_change_email_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_change_email_doctor.Location = new System.Drawing.Point(540, 459);
             this.label_change_email_doctor.Name = "label_change_email_doctor";
-            this.label_change_email_doctor.Size = new System.Drawing.Size(173, 27);
+            this.label_change_email_doctor.Size = new System.Drawing.Size(164, 29);
             this.label_change_email_doctor.TabIndex = 3;
             this.label_change_email_doctor.Text = "Change Email";
             this.label_change_email_doctor.Click += new System.EventHandler(this.label_change_email_doctor_Click);
@@ -94,11 +94,11 @@
             // 
             this.label_change_phone_number_doctor.AutoSize = true;
             this.label_change_phone_number_doctor.BackColor = System.Drawing.Color.Transparent;
-            this.label_change_phone_number_doctor.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_change_phone_number_doctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_change_phone_number_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_change_phone_number_doctor.Location = new System.Drawing.Point(482, 354);
             this.label_change_phone_number_doctor.Name = "label_change_phone_number_doctor";
-            this.label_change_phone_number_doctor.Size = new System.Drawing.Size(280, 27);
+            this.label_change_phone_number_doctor.Size = new System.Drawing.Size(266, 29);
             this.label_change_phone_number_doctor.TabIndex = 4;
             this.label_change_phone_number_doctor.Text = "Change Phone Number";
             this.label_change_phone_number_doctor.Click += new System.EventHandler(this.label_change_phone_number_doctor_Click);
@@ -107,11 +107,11 @@
             // 
             this.label_unique_code_doctor.AutoSize = true;
             this.label_unique_code_doctor.BackColor = System.Drawing.Color.Transparent;
-            this.label_unique_code_doctor.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_unique_code_doctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_unique_code_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_unique_code_doctor.Location = new System.Drawing.Point(129, 87);
             this.label_unique_code_doctor.Name = "label_unique_code_doctor";
-            this.label_unique_code_doctor.Size = new System.Drawing.Size(93, 27);
+            this.label_unique_code_doctor.Size = new System.Drawing.Size(103, 29);
             this.label_unique_code_doctor.TabIndex = 5;
             this.label_unique_code_doctor.Text = "Xj9lS08!";
             // 
@@ -119,11 +119,11 @@
             // 
             this.label_spell_code.AutoSize = true;
             this.label_spell_code.BackColor = System.Drawing.Color.Transparent;
-            this.label_spell_code.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_spell_code.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_spell_code.ForeColor = System.Drawing.SystemColors.Window;
             this.label_spell_code.Location = new System.Drawing.Point(66, 25);
             this.label_spell_code.Name = "label_spell_code";
-            this.label_spell_code.Size = new System.Drawing.Size(240, 40);
+            this.label_spell_code.Size = new System.Drawing.Size(216, 38);
             this.label_spell_code.TabIndex = 6;
             this.label_spell_code.Text = "Unique Code:";
             // 
@@ -131,13 +131,13 @@
             // 
             this.label_name_doctor_settings.AutoSize = true;
             this.label_name_doctor_settings.BackColor = System.Drawing.Color.Transparent;
-            this.label_name_doctor_settings.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_name_doctor_settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_name_doctor_settings.ForeColor = System.Drawing.SystemColors.Window;
-            this.label_name_doctor_settings.Location = new System.Drawing.Point(458, 269);
+            this.label_name_doctor_settings.Location = new System.Drawing.Point(513, 265);
             this.label_name_doctor_settings.Name = "label_name_doctor_settings";
-            this.label_name_doctor_settings.Size = new System.Drawing.Size(323, 40);
+            this.label_name_doctor_settings.Size = new System.Drawing.Size(201, 38);
             this.label_name_doctor_settings.TabIndex = 7;
-            this.label_name_doctor_settings.Text = "Numel Prenumescu";
+            this.label_name_doctor_settings.Text = "Marius Rosu";
             // 
             // form_settings_doctor
             // 
@@ -157,7 +157,7 @@
             this.MaximizeBox = false;
             this.Name = "form_settings_doctor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "form_settings_doctor";
+            this.Text = "PillBuddy";
             ((System.ComponentModel.ISupportInitialize)(this.picture_box_doctor_settings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.back_button_settings_doctor)).EndInit();
             this.ResumeLayout(false);

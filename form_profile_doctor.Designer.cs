@@ -31,10 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_profile_doctor));
             this.panel_profile_doctor = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.listPatient1 = new MedstuffPrincipal.ListPatient();
-            this.listPatient2 = new MedstuffPrincipal.ListPatient();
-            this.listPatient4 = new MedstuffPrincipal.ListPatient();
-            this.listPatient5 = new MedstuffPrincipal.ListPatient();
             this.picture_doctor_profile = new System.Windows.Forms.PictureBox();
             this.picture_box_settings_doctor = new System.Windows.Forms.PictureBox();
             this.label_name_profile_doctor = new System.Windows.Forms.Label();
@@ -44,6 +40,10 @@
             this.label_name_name_profile_doctor = new System.Windows.Forms.Label();
             this.label_email_email_profile_doctor = new System.Windows.Forms.Label();
             this.label_phone_number_phone_number_profile_doctor = new System.Windows.Forms.Label();
+            this.listPatient1 = new MedstuffPrincipal.ListPatient();
+            this.listPatient2 = new MedstuffPrincipal.ListPatient();
+            this.listPatient4 = new MedstuffPrincipal.ListPatient();
+            this.listPatient5 = new MedstuffPrincipal.ListPatient();
             this.listPatient3 = new MedstuffPrincipal.ListPatient();
             this.panel_profile_doctor.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -72,58 +72,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(997, 680);
             this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // listPatient1
-            // 
-            this.listPatient1.Affections = "Affections information";
-            this.listPatient1.Code = "01";
-            this.listPatient1.Email = "alex01@gmail.com";
-            this.listPatient1.Location = new System.Drawing.Point(3, 3);
-            this.listPatient1.Name = "listPatient1";
-            this.listPatient1.NamePacient = "Vlad Popescu";
-            this.listPatient1.Phone = "0879324657";
-            this.listPatient1.Size = new System.Drawing.Size(725, 150);
-            this.listPatient1.TabIndex = 0;
-            this.listPatient1.Treatment = "Treatment information";
-            // 
-            // listPatient2
-            // 
-            this.listPatient2.Affections = "Affections information";
-            this.listPatient2.Code = "02";
-            this.listPatient2.Email = "sebastian@yahoo.com";
-            this.listPatient2.Location = new System.Drawing.Point(3, 159);
-            this.listPatient2.Name = "listPatient2";
-            this.listPatient2.NamePacient = "Sebastian";
-            this.listPatient2.Phone = "932410041";
-            this.listPatient2.Size = new System.Drawing.Size(725, 150);
-            this.listPatient2.TabIndex = 1;
-            this.listPatient2.Treatment = "Treatment information";
-            // 
-            // listPatient4
-            // 
-            this.listPatient4.Affections = "Affections information";
-            this.listPatient4.Code = "03";
-            this.listPatient4.Email = "vartejcris@yahoo.com";
-            this.listPatient4.Location = new System.Drawing.Point(3, 315);
-            this.listPatient4.Name = "listPatient4";
-            this.listPatient4.NamePacient = "Cristian Vartej";
-            this.listPatient4.Phone = "0987654321";
-            this.listPatient4.Size = new System.Drawing.Size(725, 150);
-            this.listPatient4.TabIndex = 3;
-            this.listPatient4.Treatment = "Treatment information";
-            // 
-            // listPatient5
-            // 
-            this.listPatient5.Affections = "Affections information";
-            this.listPatient5.Code = "04";
-            this.listPatient5.Email = "carnmiruna@yahoo.com";
-            this.listPatient5.Location = new System.Drawing.Point(3, 471);
-            this.listPatient5.Name = "listPatient5";
-            this.listPatient5.NamePacient = "Miruna Carnagiu";
-            this.listPatient5.Phone = "1230984756";
-            this.listPatient5.Size = new System.Drawing.Size(725, 150);
-            this.listPatient5.TabIndex = 4;
-            this.listPatient5.Treatment = "Treatment information";
             // 
             // picture_doctor_profile
             // 
@@ -156,9 +104,9 @@
             this.label_name_profile_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_name_profile_doctor.Location = new System.Drawing.Point(8, 209);
             this.label_name_profile_doctor.Name = "label_name_profile_doctor";
-            this.label_name_profile_doctor.Size = new System.Drawing.Size(196, 20);
+            this.label_name_profile_doctor.Size = new System.Drawing.Size(104, 20);
             this.label_name_profile_doctor.TabIndex = 2;
-            this.label_name_profile_doctor.Text = "Neimulescu Prenumescu";
+            this.label_name_profile_doctor.Text = "Marius Rosu";
             // 
             // label_email_profile_doctor
             // 
@@ -168,9 +116,9 @@
             this.label_email_profile_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_email_profile_doctor.Location = new System.Drawing.Point(8, 299);
             this.label_email_profile_doctor.Name = "label_email_profile_doctor";
-            this.label_email_profile_doctor.Size = new System.Drawing.Size(186, 20);
+            this.label_email_profile_doctor.Size = new System.Drawing.Size(153, 20);
             this.label_email_profile_doctor.TabIndex = 3;
-            this.label_email_profile_doctor.Text = "soricioaica12@swag.eu";
+            this.label_email_profile_doctor.Text = "marius@gmail.com";
             // 
             // label_phone_number_profile_doctor
             // 
@@ -180,9 +128,9 @@
             this.label_phone_number_profile_doctor.ForeColor = System.Drawing.SystemColors.Window;
             this.label_phone_number_profile_doctor.Location = new System.Drawing.Point(8, 395);
             this.label_phone_number_profile_doctor.Name = "label_phone_number_profile_doctor";
-            this.label_phone_number_profile_doctor.Size = new System.Drawing.Size(118, 20);
+            this.label_phone_number_profile_doctor.Size = new System.Drawing.Size(99, 20);
             this.label_phone_number_profile_doctor.TabIndex = 4;
-            this.label_phone_number_profile_doctor.Text = "+40728633355";
+            this.label_phone_number_profile_doctor.Text = "0774651977";
             // 
             // label_logout_doctor_profile
             // 
@@ -233,6 +181,59 @@
             this.label_phone_number_phone_number_profile_doctor.TabIndex = 8;
             this.label_phone_number_phone_number_profile_doctor.Text = "Phone Number";
             // 
+            // listPatient1
+            // 
+            this.listPatient1.Affections = "Affections information";
+            this.listPatient1.Code = "01";
+            this.listPatient1.Email = "vlad@gmail.com";
+            this.listPatient1.Location = new System.Drawing.Point(3, 3);
+            this.listPatient1.Name = "listPatient1";
+            this.listPatient1.NamePacient = "Vlad Popescu";
+            this.listPatient1.Phone = "0879324657";
+            this.listPatient1.Size = new System.Drawing.Size(803, 150);
+            this.listPatient1.TabIndex = 0;
+            this.listPatient1.Treatment = "Treatment information";
+            this.listPatient1.Load += new System.EventHandler(this.listPatient1_Load);
+            // 
+            // listPatient2
+            // 
+            this.listPatient2.Affections = "Affections information";
+            this.listPatient2.Code = "02";
+            this.listPatient2.Email = "sebastian@yahoo.com";
+            this.listPatient2.Location = new System.Drawing.Point(3, 159);
+            this.listPatient2.Name = "listPatient2";
+            this.listPatient2.NamePacient = "Sebastian";
+            this.listPatient2.Phone = "932410041";
+            this.listPatient2.Size = new System.Drawing.Size(803, 150);
+            this.listPatient2.TabIndex = 1;
+            this.listPatient2.Treatment = "Treatment information";
+            // 
+            // listPatient4
+            // 
+            this.listPatient4.Affections = "Affections information";
+            this.listPatient4.Code = "03";
+            this.listPatient4.Email = "vartejcris@yahoo.com";
+            this.listPatient4.Location = new System.Drawing.Point(3, 315);
+            this.listPatient4.Name = "listPatient4";
+            this.listPatient4.NamePacient = "Cristian Vartej";
+            this.listPatient4.Phone = "0987654321";
+            this.listPatient4.Size = new System.Drawing.Size(803, 150);
+            this.listPatient4.TabIndex = 3;
+            this.listPatient4.Treatment = "Treatment information";
+            // 
+            // listPatient5
+            // 
+            this.listPatient5.Affections = "Affections information";
+            this.listPatient5.Code = "04";
+            this.listPatient5.Email = "carnmiruna@yahoo.com";
+            this.listPatient5.Location = new System.Drawing.Point(3, 471);
+            this.listPatient5.Name = "listPatient5";
+            this.listPatient5.NamePacient = "Miruna Carnagiu";
+            this.listPatient5.Phone = "1230984756";
+            this.listPatient5.Size = new System.Drawing.Size(803, 150);
+            this.listPatient5.TabIndex = 4;
+            this.listPatient5.Treatment = "Treatment information";
+            // 
             // listPatient3
             // 
             this.listPatient3.Affections = "Affections information";
@@ -242,7 +243,7 @@
             this.listPatient3.Name = "listPatient3";
             this.listPatient3.NamePacient = "Sara Miron";
             this.listPatient3.Phone = "1234569870";
-            this.listPatient3.Size = new System.Drawing.Size(725, 150);
+            this.listPatient3.Size = new System.Drawing.Size(803, 150);
             this.listPatient3.TabIndex = 5;
             this.listPatient3.Treatment = "Treatment information";
             // 
@@ -266,7 +267,7 @@
             this.MaximizeBox = false;
             this.Name = "form_profile_doctor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "form_profile_doctor";
+            this.Text = "PillBuddy";
             this.panel_profile_doctor.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picture_doctor_profile)).EndInit();
