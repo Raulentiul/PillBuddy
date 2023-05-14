@@ -67,6 +67,7 @@ namespace MedstuffPrincipal
             form_login_doctor form_login_doctor = new form_login_doctor();
             form_login_doctor.Show();
             this.Close();
+            ///bla bla bal
         }
 
         private void listPatient1_Load(object sender, EventArgs e)
